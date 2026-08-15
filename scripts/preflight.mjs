@@ -88,19 +88,37 @@ if (!existsSync(QUEUE)) {
   const urls = queue.posts.flatMap((p) => p.media.map((m) => `${queue.base_url}/${m}`));
   console.log(`  checking ${urls.length} images at ${queue.base_url} ...`);
   let badCount = 0;
-  const results = await Promise.all(
-    urls.map(async (u) => {
-      try {
-        const r = await fetch(u, { method: "HEAD", redirect: "follow" });
-        const ct = r.headers.get("content-type") || "";
-        if (!r.ok) return `${u} -> HTTP ${r.status}`;
-        if (!ct.startsWith("image/")) return `${u} -> content-type ${ct}`;
-        return null;
-      } catch (e) {
-        return `${u} -> ${e.message}`;
+
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  // Firing all 71 at once gets throttled by GitHub Pages (503/429), which
+  // reads as a missing file when the file is fine. Cap concurrency and retry
+  // transient statuses before calling anything broken.
+  async function check(u, attempt = 0) {
+    try {
+      const r = await fetch(u, { method: "HEAD", redirect: "follow" });
+      if ([429, 500, 502, 503, 504].includes(r.status) && attempt < 3) {
+        await sleep(500 * 2 ** attempt);
+        return check(u, attempt + 1);
       }
-    })
-  );
+      const ct = r.headers.get("content-type") || "";
+      if (!r.ok) return `${u} -> HTTP ${r.status}`;
+      if (!ct.startsWith("image/")) return `${u} -> content-type ${ct}`;
+      return null;
+    } catch (e) {
+      if (attempt < 3) {
+        await sleep(500 * 2 ** attempt);
+        return check(u, attempt + 1);
+      }
+      return `${u} -> ${e.message}`;
+    }
+  }
+
+  const LIMIT = 6;
+  const results = [];
+  for (let i = 0; i < urls.length; i += LIMIT) {
+    results.push(...(await Promise.all(urls.slice(i, i + LIMIT).map((u) => check(u)))));
+  }
   for (const r of results) {
     if (r) {
       if (badCount < 5) bad(r);
