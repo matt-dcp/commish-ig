@@ -1,0 +1,23 @@
+name: Preflight
+
+# On-demand health check: token valid, account is professional, quota clear,
+# every image URL reachable. Run this before the first live post and any time
+# publishing breaks.
+on:
+  workflow_dispatch:
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Preflight
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GRAPH_HOST: ${{ vars.GRAPH_HOST || 'graph.instagram.com' }}
+          GRAPH_VERSION: ${{ vars.GRAPH_VERSION || 'v23.0' }}
+        run: node scripts/preflight.mjs
