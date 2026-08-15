@@ -1,0 +1,61 @@
+name: Daily Instagram post
+
+# 08:00 America/Los_Angeles. GitHub cron is UTC and does not observe DST, so
+# this fires at 08:00 PDT (Mar-Nov) and 07:00 PST (Nov-Mar). Close enough; the
+# poster keys off the local calendar date, not the clock, so the right post
+# always goes out on the right day.
+on:
+  schedule:
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Publish a specific date (YYYY-MM-DD). Blank = today."
+        required: false
+      dry_run:
+        description: "Resolve and validate only, publish nothing"
+        type: boolean
+        default: false
+
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Publish
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GRAPH_HOST: ${{ vars.GRAPH_HOST || 'graph.instagram.com' }}
+          GRAPH_VERSION: ${{ vars.GRAPH_VERSION || 'v23.0' }}
+        run: |
+          node scripts/post.mjs \
+            ${{ inputs.date && format('--date {0}', inputs.date) || '' }} \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      # The ledger is what makes re-runs safe: a manual re-trigger on a day
+      # already published exits early instead of double-posting.
+      - name: Commit posted ledger
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if git diff --quiet posted.json 2>/dev/null; then
+            echo "ledger unchanged"
+            exit 0
+          fi
+          git config user.name  "commish-bot"
+          git config user.email "bot@commish.golf"
+          git add posted.json
+          git commit -m "chore: record published post"
+          git push

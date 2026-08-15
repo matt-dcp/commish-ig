@@ -1,0 +1,33 @@
+name: Refresh Instagram token
+
+# Long-lived tokens last 60 days and die permanently if they lapse. Weekly
+# refresh means the campaign survives ~8 consecutive failed runs before
+# anything is at risk.
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm install --no-save libsodium-wrappers
+
+      - name: Refresh and rotate secret
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          # Needs a PAT with repo scope: the default GITHUB_TOKEN cannot
+          # write Actions secrets.
+          GITHUB_TOKEN: ${{ secrets.SECRETS_PAT }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/refresh-token.mjs

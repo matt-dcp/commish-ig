@@ -1,0 +1,348 @@
+{
+  "base_url": "https://matt-dcp.github.io/commish-ig",
+  "timezone": "America/Los_Angeles",
+  "post_hour_local": 8,
+  "posts": [
+    {
+      "date": "2026-08-18",
+      "slug": "d01-office-open",
+      "type": "charter",
+      "kind": "image",
+      "media": [
+        "out/d01-office-open/card.png"
+      ],
+      "caption": "Every buddies trip has a commissioner. Nobody elected him. Nobody thanks him. He does it anyway.\n\nThis account is the Office of the Commissioner. Rulings, notices, and the occasional memorandum on how to run a golf trip properly.\n\nCommish keeps the record. Free during launch at commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-08-19",
+      "slug": "d02-ruling-001",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d02-ruling-001/card.png"
+      ],
+      "caption": "RULING NO. 001. The first tee mulligan expires on the first tee.\n\nSend the Committee your golf trip disputes and they will be ruled on in the order received.\n\nCommish settles the ones that involve arithmetic. commish.golf\n\n#golf #golfhumor #golfmemes #golfbuddies"
+    },
+    {
+      "date": "2026-08-20",
+      "slug": "d03-memo-presidents-cup",
+      "type": "carousel",
+      "kind": "carousel",
+      "media": [
+        "out/d03-memo-presidents-cup/1-cover.png",
+        "out/d03-memo-presidents-cup/2-the-teams.png",
+        "out/d03-memo-presidents-cup/3-day-one.png",
+        "out/d03-memo-presidents-cup/4-day-two.png",
+        "out/d03-memo-presidents-cup/5-day-three.png",
+        "out/d03-memo-presidents-cup/6-the-arithmetic.png",
+        "out/d03-memo-presidents-cup/7-the-record.png",
+        "out/d03-memo-presidents-cup/8-cta.png"
+      ],
+      "caption": "The Presidents Cup is at Medinah on September 24. You have time to run your own.\n\nThis is the full 24-point format scaled to twelve friends: four-ball, foursomes, then singles. Save it for your fall trip.\n\nCommish detects team formats and builds the leaderboard for you. Free during launch at commish.golf\n\n#golf #presidentscup #matchplay #golftrip"
+    },
+    {
+      "date": "2026-08-21",
+      "slug": "d04-handicaps-close",
+      "type": "bulletin",
+      "kind": "image",
+      "media": [
+        "out/d04-handicaps-close/card.png"
+      ],
+      "caption": "Lock handicaps a week before the trip. Not the night before, when one man discovers he has been playing to a 12 this whole time.\n\nCommish freezes indexes at publish and computes course handicaps off real slope and rating. commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-08-22",
+      "slug": "d05-ruling-002",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d05-ruling-002/card.png"
+      ],
+      "caption": "RULING NO. 002. The sandbagger. Every group has exactly one and everyone knows who he is.\n\nThe fix is procedural, not moral: lock indexes before the trip and let the app do the handicap math.\n\nCommish computes course handicaps from real slope. commish.golf\n\n#golf #golfhumor #golfmemes #golfbuddies"
+    },
+    {
+      "date": "2026-08-23",
+      "slug": "d06-record-leaderboard",
+      "type": "record",
+      "kind": "image",
+      "media": [
+        "out/d06-record-leaderboard/card.png"
+      ],
+      "caption": "The back nine is better when everyone can see it happening.\n\nLive net and gross leaderboard, updating as your group plays. Works with no signal and syncs when it comes back.\n\nNo downloads for your players. They tap a link. commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-08-24",
+      "slug": "d07-the-field",
+      "type": "bulletin",
+      "kind": "image",
+      "media": [
+        "out/d07-the-field/card.png"
+      ],
+      "caption": "The official roster of every buddies trip ever assembled.\n\nTag the one you are. Tag the one he is. The Committee is not involved in what follows.\n\nCommish runs the tournament. You handle the group chat. commish.golf\n\n#golf #golfhumor #golfmemes #golfbuddies"
+    },
+    {
+      "date": "2026-08-25",
+      "slug": "d08-ruling-003",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d08-ruling-003/card.png"
+      ],
+      "caption": "RULING NO. 003. You cannot give yourself a putt. This has always been true and it remains true.\n\nWhat is your group's worst gimme offender doing. The Committee reads every submission.\n\nCommish keeps the card honest. commish.golf\n\n#golf #golfhumor #golfmemes #golfbuddies"
+    },
+    {
+      "date": "2026-08-26",
+      "slug": "d09-memo-side-games",
+      "type": "carousel",
+      "kind": "carousel",
+      "media": [
+        "out/d09-memo-side-games/1-cover.png",
+        "out/d09-memo-side-games/2-nassau.png",
+        "out/d09-memo-side-games/3-skins.png",
+        "out/d09-memo-side-games/4-wolf.png",
+        "out/d09-memo-side-games/5-sixes.png",
+        "out/d09-memo-side-games/6-dots.png",
+        "out/d09-memo-side-games/7-cta.png"
+      ],
+      "caption": "Five side games explained properly, including what a press actually does to a Nassau.\n\nSave this before your next trip so the rules get agreed on the first tee instead of relitigated in the parking lot.\n\nCommish scores Nassau, Wolf and Sixes automatically while you play. commish.golf\n\n#golf #nassau #skins #golfbets"
+    },
+    {
+      "date": "2026-08-27",
+      "slug": "d10-ruling-004",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d10-ruling-004/card.png"
+      ],
+      "caption": "RULING NO. 004. The unaccompanied ball search. The Committee makes no accusation and draws no conclusion.\n\nWho in your group is this. No names required, the Committee will infer.\n\nCommish records what gets entered. commish.golf\n\n#golf #golfhumor #golfmemes #golfbuddies"
+    },
+    {
+      "date": "2026-08-28",
+      "slug": "d11-record-ticker",
+      "type": "record",
+      "kind": "image",
+      "media": [
+        "out/d11-record-ticker/card.png"
+      ],
+      "caption": "A live news ticker that narrates your trip while you are still playing it. Birdies, eagles, aces, lead changes.\n\nNobody else in golf software has this and it is the feature people actually text each other about.\n\nFree during launch at commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-08-29",
+      "slug": "d12-ruling-005",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d12-ruling-005/card.png"
+      ],
+      "caption": "RULING NO. 005. In defense of the guy who does everything.\n\nSend this to your commissioner. He booked the house, fronted the money, and got a group chat full of notes.\n\nCommish was built for him. Free during launch at commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-08-30",
+      "slug": "d13-power-rankings",
+      "type": "bulletin",
+      "kind": "image",
+      "media": [
+        "out/d13-power-rankings/card.png"
+      ],
+      "caption": "Power rankings for a field of eight men who are about to play very badly in front of each other.\n\nReply with where you rank. The Committee will adjust nothing.\n\nCommish posts real ones once you start playing. commish.golf\n\n#golf #golfhumor #golfmemes #golfbuddies"
+    },
+    {
+      "date": "2026-08-31",
+      "slug": "d14-memo-handicaps",
+      "type": "carousel",
+      "kind": "carousel",
+      "media": [
+        "out/d14-memo-handicaps/1-cover.png",
+        "out/d14-memo-handicaps/2-your-index-is-not-your-str.png",
+        "out/d14-memo-handicaps/3-slope-does-the-work.png",
+        "out/d14-memo-handicaps/4-strokes-land-somewhere-spe.png",
+        "out/d14-memo-handicaps/5-allowances.png",
+        "out/d14-memo-handicaps/6-lock-them-early.png",
+        "out/d14-memo-handicaps/7-or-skip-the-argument.png",
+        "out/d14-memo-handicaps/8-cta.png"
+      ],
+      "caption": "Why your 15.2 is not 15 strokes, what slope actually does, and why the same golfer gets different strokes at different courses.\n\nSave this and send it to the guy who recalculated his index the night before the trip.\n\nCommish does all of it automatically off real course data. commish.golf\n\n#golf #matchplay #rydercup #golftournament"
+    },
+    {
+      "date": "2026-09-01",
+      "slug": "d15-fall-season",
+      "type": "bulletin",
+      "kind": "image",
+      "media": [
+        "out/d15-fall-season/card.png"
+      ],
+      "caption": "Fall trips are won in August. The good tee times and the houses go to whoever books first, and that is always the same guy.\n\nSix-week countdown drops Thursday. Follow so you get it in time to use it.\n\nCommish handles week three. commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-09-02",
+      "slug": "d16-ruling-006",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d16-ruling-006/card.png"
+      ],
+      "caption": "RULING NO. 006. The spreadsheet. It is always one guy, it is always his phone, and it is always wrong by the back nine of day one.\n\nYour trip deserves better than cell B7.\n\nCommish scores it live on every phone, offline included. commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-09-03",
+      "slug": "d17-memo-six-weeks",
+      "type": "carousel",
+      "kind": "carousel",
+      "media": [
+        "out/d17-memo-six-weeks/1-cover.png",
+        "out/d17-memo-six-weeks/2-six-weeks-out.png",
+        "out/d17-memo-six-weeks/3-five-weeks-out.png",
+        "out/d17-memo-six-weeks/4-four-weeks-out.png",
+        "out/d17-memo-six-weeks/5-three-weeks-out.png",
+        "out/d17-memo-six-weeks/6-two-weeks-out.png",
+        "out/d17-memo-six-weeks/7-one-week-out.png",
+        "out/d17-memo-six-weeks/8-cta.png"
+      ],
+      "caption": "The six-week countdown for a fall golf trip, from locking the house to posting the pairings.\n\nSeptember and October fill up fast. If you are the guy who organizes it, this is your checklist. Save it.\n\nCommish covers week three and everything after. commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-09-04",
+      "slug": "d18-record-spectator",
+      "type": "record",
+      "kind": "image",
+      "media": [
+        "out/d18-record-spectator/card.png"
+      ],
+      "caption": "There is a second link for everyone who is not on the trip.\n\nIt opens straight to the live leaderboard. No sign in, no name to pick, nothing to break. People at home have followed entire buddies trips hole by hole from it.\n\nFree during launch at commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-09-05",
+      "slug": "d19-ruling-007",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d19-ruling-007/card.png"
+      ],
+      "caption": "RULING NO. 007. The rules lawyer is technically correct, which is the most annoying way to be correct.\n\nTag him. He will explain why the tag was improper.\n\nCommish handles the arithmetic so the arguments stay recreational. commish.golf\n\n#golf #golfhumor #golfmemes #golfbuddies"
+    },
+    {
+      "date": "2026-09-06",
+      "slug": "d20-no-downloads",
+      "type": "bulletin",
+      "kind": "image",
+      "media": [
+        "out/d20-no-downloads/card.png"
+      ],
+      "caption": "The real reason group scoring apps fail is not features. It is the first tee, where four guys are downloading something and one has already given up.\n\nCommish players tap a link and pick their name. No app, no account, no password. Works on anything with a browser.\n\nFree during launch at commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-09-07",
+      "slug": "d21-ruling-008",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d21-ruling-008/card.png"
+      ],
+      "caption": "RULING NO. 008. The Committee does not penalize club throwing. The yardage book does that on its own.\n\nWhose club is at the bottom of a hazard right now. Name the hole.\n\nCommish records the score, not the incident. commish.golf\n\n#golf #golfhumor #golfmemes #golfbuddies"
+    },
+    {
+      "date": "2026-09-08",
+      "slug": "d22-memo-draft-teams",
+      "type": "carousel",
+      "kind": "carousel",
+      "media": [
+        "out/d22-memo-draft-teams/1-cover.png",
+        "out/d22-memo-draft-teams/2-appoint-two-captains.png",
+        "out/d22-memo-draft-teams/3-draft-in-the-open.png",
+        "out/d22-memo-draft-teams/4-snake-the-order.png",
+        "out/d22-memo-draft-teams/5-balance-by-index,-not-by-v.png",
+        "out/d22-memo-draft-teams/6-separate-the-obvious-pairs.png",
+        "out/d22-memo-draft-teams/7-then-post-it.png",
+        "out/d22-memo-draft-teams/8-cta.png"
+      ],
+      "caption": "How to draft teams for a Ryder Cup or Presidents Cup style trip, including why the draft should be live and out loud.\n\nDo this the night before with a drink in your hand. It is the best hour of the whole trip.\n\nCommish handles teams, matchups and points. commish.golf\n\n#golf #presidentscup #matchplay #golftrip"
+    },
+    {
+      "date": "2026-09-09",
+      "slug": "d23-ruling-009",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d23-ruling-009/card.png"
+      ],
+      "caption": "RULING NO. 009. Foursomes. Alternate shot. The format that tests whether you actually like each other.\n\nWho is your alternate shot partner and are you still friends.\n\nCommish scores foursomes, four-ball and singles automatically. commish.golf\n\n#golf #presidentscup #matchplay #golftrip"
+    },
+    {
+      "date": "2026-09-10",
+      "slug": "d24-record-champions",
+      "type": "record",
+      "kind": "image",
+      "media": [
+        "out/d24-record-champions/card.png"
+      ],
+      "caption": "The best argument for running your trip properly is next year, when somebody claims a win that never happened.\n\nCommish keeps a permanent champions record across every year you run it. Duplicate last year's setup in about a minute.\n\nFree during launch at commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-09-11",
+      "slug": "d25-captains-notice",
+      "type": "bulletin",
+      "kind": "image",
+      "media": [
+        "out/d25-captains-notice/card.png"
+      ],
+      "caption": "Post the pairings before the trip, not on the first tee while six guys stand around holding drivers.\n\nCommish drafts matchups in the commish panel and pushes them live to every player's phone. commish.golf\n\n#golf #presidentscup #matchplay #golftrip"
+    },
+    {
+      "date": "2026-09-12",
+      "slug": "d26-ruling-010",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d26-ruling-010/card.png"
+      ],
+      "caption": "RULING NO. 010. The press. Then the press on the press. Then the part where nobody knows what anyone owes.\n\nA two dollar Nassau has never once ended as a two dollar Nassau.\n\nCommish tracks Nassau and presses hole by hole so the number is settled before you reach the car. commish.golf\n\n#golf #nassau #skins #golfbets"
+    },
+    {
+      "date": "2026-09-13",
+      "slug": "d27-memo-formats",
+      "type": "carousel",
+      "kind": "carousel",
+      "media": [
+        "out/d27-memo-formats/1-cover.png",
+        "out/d27-memo-formats/2-wide-handicap-spread.png",
+        "out/d27-memo-formats/3-two-sides,-three-days.png",
+        "out/d27-memo-formats/4-eight-or-fewer.png",
+        "out/d27-memo-formats/5-slow-group,-long-course.png",
+        "out/d27-memo-formats/6-mixed-ability,-one-round.png",
+        "out/d27-memo-formats/7-the-one-rule.png",
+        "out/d27-memo-formats/8-cta.png"
+      ],
+      "caption": "Picking a format for your trip based on your actual group: handicap spread, headcount, and how long you have.\n\nStableford for wide spreads. Four-ball, foursomes and singles for two sides. Round robin for eight or fewer. Save it.\n\nCommish scores all of them off real course handicaps. commish.golf\n\n#golf #matchplay #rydercup #golftournament"
+    },
+    {
+      "date": "2026-09-14",
+      "slug": "d28-ruling-011",
+      "type": "ruling",
+      "kind": "image",
+      "media": [
+        "out/d28-ruling-011/card.png"
+      ],
+      "caption": "RULING NO. 011. On pace of play, and the men who read putts they are going to miss anyway.\n\nEvery group has a plumb bobber. Tag him gently, he is sensitive.\n\nCommish keeps score so you do not have to stop and add. commish.golf\n\n#golf #golfhumor #golfmemes #golfbuddies"
+    },
+    {
+      "date": "2026-09-15",
+      "slug": "d29-record-system",
+      "type": "record",
+      "kind": "image",
+      "media": [
+        "out/d29-record-system/card.png"
+      ],
+      "caption": "Everything the Office runs, in one place.\n\nLive net and gross leaderboard. A news ticker calling every birdie and every blow up. Teams, matchups and points. Nassau, Wolf and Sixes scored automatically. Real course handicaps off real slope and stroke index for 14,000+ US courses. Works with no signal.\n\nYou answer a few questions. Your players tap a link. Free during launch at commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    },
+    {
+      "date": "2026-09-16",
+      "slug": "d30-accepting-commissioners",
+      "type": "charter",
+      "kind": "image",
+      "media": [
+        "out/d30-accepting-commissioners/card.png"
+      ],
+      "caption": "Thirty days of rulings, notices and memoranda. Here is the point of all of it.\n\nCommish turns your buddies trip into a real tournament: live leaderboard, team formats, side games, real handicaps. You set it up in a few minutes. Your players tap a link, no app and no account.\n\nFree during launch. Publish now and you keep launch pricing permanently. commish.golf\n\n#golf #golftrip #buddiestrip #golfbuddies"
+    }
+  ]
+}
